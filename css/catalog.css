@@ -33,8 +33,9 @@ body{
 .input-search{
   background-image: url(../img/search.svg);
   width:300px ;
-  margin: auto;
+  
 }
+
 .buttons{
   display: flex;
   align-items: center;
@@ -85,11 +86,19 @@ body{
 .main{
   background: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, #F5F5F5 100%);
 }
+.restaurants>.section-restaurants{
+  justify-content:left;
+}
 .section-heading{
   display: flex;
   align-items: center;
   margin-bottom: 44px;
+  
 }
+.index{
+  justify-content: space-between;
+}
+
 .section-title{
   font-weight: bold;
   font-size: 36px;
